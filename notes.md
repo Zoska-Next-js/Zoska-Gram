@@ -36,6 +36,6 @@ globals.css musí existovať
 not-found.tsx musí byť v app dir, overridene defaultnu page 404
 
 
-find . -path './.next' -prune -o -path './node_modules' -prune -o -path './.git' -prune -o -print | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
+find . -path './.next' -prune -o -path './node_modules' -prune -o -path './.git' -prune -o -print | sed -e "s/[^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
 
 ^vypise vsetky folders a files okrem .next, node_modules, .git
