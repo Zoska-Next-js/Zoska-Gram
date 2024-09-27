@@ -4,13 +4,11 @@
 
 import Typography from '@mui/material/Typography';
 
-export const metadata = { title:"Domov | ZoskaSnap" };
+export const metadata = { title:"Domov | ZoskaGram" };
 
 
 export default function Home() {
   return (
-    <Typography>
-      Domovská stránka
-    </Typography>
+    <Typography>Domovská stránka</Typography>
   );
 }

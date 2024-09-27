@@ -5,15 +5,13 @@
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 
-export const metadata = { title:"Podmienky | ZoskaSnap" };
+export const metadata = { title:"Podmienky | ZoskaGram" };
 
 
 export default function TermsConditions() {
   return (
     <Box>
-      <Typography>
-        Podmienky používania
-      </Typography>
+      <Typography>Podmienky používania</Typography>
     </Box>
   );
 }
